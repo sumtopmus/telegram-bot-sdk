@@ -1,3 +1,19 @@
+# Auth secrets
+.secrets.*
+
+# App data
+backup
+data
+logs
+
+# Dev and local environment
+.vscode
+**/*.local*
+debug
+
+# macOS environment
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
